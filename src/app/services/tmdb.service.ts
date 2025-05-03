@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class TmdbService {
 
   private api_key = 'CHAVE_DA_API_AQUI'; // Placeholder para a chave da API
-  private api_url_base = 'https://api.themoviedb.org/3';
+  private api_url_base = 'https://api.themoviedb.org/3'; // URL base da API do TMDB
 
   constructor(private http: HttpClient) { }
 

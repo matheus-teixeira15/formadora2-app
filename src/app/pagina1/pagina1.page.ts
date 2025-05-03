@@ -15,7 +15,7 @@ export class Pagina1Page implements OnInit {
 
   ngOnInit() {
     this.tmdb.filmes_mais_populares().subscribe((res: any) => {
-      this.filmes = res.results;
+      this.filmes = res.results; // Armazena todos os filmes retornados pela API
     });
   }
 
