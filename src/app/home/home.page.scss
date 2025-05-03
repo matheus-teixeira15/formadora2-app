@@ -9,7 +9,7 @@
 }
 
 #container strong {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 26px;
 }
 
@@ -24,4 +24,14 @@
 
 #container a {
   text-decoration: none;
+}
+
+ion-button {
+  font-size: 15px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #007aff;
+  color: white;
+  border-radius: 5px;
+  max-width: 30%;
 }
